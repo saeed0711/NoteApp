@@ -19,16 +19,16 @@
     height:91%;
    
 }
-.btn{
+/* .btn{
     text-align: end;
     padding-right: 5px;
     position: sticky;
-    top: 90vh;
+    top: 0;
     left: 18vw;
    
     height: 30px;
     width: 25px;
-}
+} */
 #bt{
     height: 50px;
     width: 50px;
@@ -36,11 +36,23 @@
     color: white;
     border-radius: 50%;
     font-size: 40px;
+   /* for sticking  */
+    position: fixed;
+        bottom: 20px;
+        left: 245px;
 }
 
-/* .group:hover{
+
+      /* #bt.sticky {
+        bottom: 20px;
+        right: 20px
+      } */
+
+
+/* to identify area coz of this rest design affecting */
+ .group:hover{
     border: 1px solid grey;
-} */
+}
 .right{
     background-color: #DAE5F5;
    display: flex;
@@ -68,7 +80,7 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1em;
+    padding: 0.30em;
     font-size: large;
     font-weight: 800;
     cursor: pointer;

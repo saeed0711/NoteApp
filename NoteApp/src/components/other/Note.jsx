@@ -54,9 +54,9 @@ export default function Note() {
   };
   return (
   
-    <div className='main' >
-    <div class="left">
-      <div class="heading"><h2>Pocket Notes</h2></div>
+     <div className='main' >
+       <div class="left">
+        <div class="heading"><h2>Pocket Notes</h2></div>
         <div class="group">
         {allInfoObjects.map((info, index) => (
           <div key={index}>
