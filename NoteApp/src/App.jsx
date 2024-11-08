@@ -1,8 +1,9 @@
-import Note from './components/Note'
+import Note from "./components/other/Note"
+
 
 function App() {
  return(
-    <Note/>
+  <Note/>
  )
 }
 

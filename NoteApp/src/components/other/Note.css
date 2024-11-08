@@ -1,0 +1,107 @@
+.main{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100vh;
+}
+/* .mainbody{
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+} */
+
+.heading{
+    height: 8%;
+     text-align: center;
+     padding-top: 5px;
+     /* background-color: blue; */
+}
+.group{
+    height:91%;
+   
+}
+.btn{
+    text-align: end;
+    padding-right: 5px;
+    position: sticky;
+    top: 90vh;
+    left: 18vw;
+   
+    height: 30px;
+    width: 25px;
+}
+#bt{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+/* .group:hover{
+    border: 1px solid grey;
+} */
+.right{
+    background-color: #DAE5F5;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+img{
+    height: 30vh;
+    width: 30vw;  
+}
+.dis{
+    height: 30vh;
+    width: 30vw;  
+}
+#h2{
+    text-align:center;
+}
+
+/* side bar design */
+
+.notesInfolist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+
+}
+
+.notesInfolist.active {
+    position: relative;
+}
+#sellist1{
+    border: 4px solid black;
+}
+.notesInfolist .initials{
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 500;
+color: white;
+width: 4em;
+height: 4em;
+border-radius: 50%;
+}
+.notesInfolist .initialsff{
+margin-left: 1em;
+width: fit-content;
+}
+@media only screen and (min-width: 701px) {
+    .Sidebarmain{
+        display: block;
+        height: inherit;
+        width: 30%;
+    }
+}
